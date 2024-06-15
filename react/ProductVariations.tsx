@@ -9,6 +9,7 @@ import { opaque } from './utils/opaque'
 const CSS_HANDLES = [
   'productVariationsContainer',
   'productVariationsItem',
+  'productVariationsItemValue'
 ] as const
 
 const ProductVariations: FunctionComponent = () => {
@@ -24,11 +25,11 @@ const ProductVariations: FunctionComponent = () => {
       {item.skuSpecifications.map((spec: SkuSpecification) => {
         return (
           <div
-            className={handles.productVariationsItem}
+            className={`${handles.productVariationsItem} ${handles.productVariationsItem}--${spec.fieldName}`}
             id={`specification-${item.id}-${spec.fieldName}`}
-            key={spec.fieldName ?? undefined}
+            key={spec.fieldName || undefined}
           >
-            {`${spec.fieldName}: ${spec.fieldValues.join(', ')}`}
+            {`${spec.fieldName?.toLocaleLowerCase()}: `} <span title={spec.fieldValues.join(', ')} className={handles.productVariationsItemValue}>{spec.fieldValues.join(', ')?.toLocaleLowerCase()}</span>
           </div>
         )
       })}
