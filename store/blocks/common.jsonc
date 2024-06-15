@@ -20,7 +20,7 @@
   "flex-layout.row#product-name": {
     // Using app prefix here because it might conflict with
     // vtex.store-components:product-name
-    "children": ["anika.product-list-edit:product-name"]
+    "children": ["anika.product-list-edit:product-name-edit"]
   },
   "flex-layout.row#product-variations": {
     "children": ["product-variations-edit"],
