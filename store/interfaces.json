@@ -1,19 +1,19 @@
 {
-  "product-list": {
+  "product-list-edit": {
     "component": "ProductListWrapper",
     "allowed": ["product-list-content-desktop", "product-list-content-mobile"]
   },
-  "product-list-content-desktop": {
+  "product-list-content-desktop-edit": {
     "component": "ProductList",
     "composition": "children",
     "allowed": "*"
   },
-  "product-list-content-mobile": {
+  "product-list-content-mobile-edit": {
     "component": "ProductList",
     "composition": "children",
     "allowed": "*"
   },
-  "product-list-image": {
+  "product-list-image-edit": {
     "component": "Image",
     "preview": {
       "type": "box",
@@ -25,10 +25,10 @@
       }
     }
   },
-  "message": {
+  "message-edit": {
     "component": "AvailabilityMessage"
   },
-  "product-name": {
+  "product-name-edit": {
     "component": "ProductName",
     "preview": {
       "type": "box",
@@ -39,10 +39,10 @@
       }
     }
   },
-  "product-reference": {
+  "product-reference-edit": {
     "component": "ProductReference"
   },
-  "product-brand": {
+  "product-brand-edit": {
     "component": "ProductBrand",
     "preview": {
       "type": "box",
@@ -53,13 +53,13 @@
       }
     }
   },
-  "product-variations": {
+  "product-variations-edit": {
     "component": "ProductVariations"
   },
-  "product-quantity-label": {
+  "product-quantity-label-edit": {
     "component": "ProductQuantityLabel"
   },
-  "quantity-selector": {
+  "quantity-selector-edit": {
     "component": "QuantitySelector",
     "preview": {
       "type": "box",
@@ -70,10 +70,10 @@
       }
     }
   },
-  "unit-price": {
+  "unit-price-edit": {
     "component": "UnitPrice"
   },
-  "price": {
+  "price-edit": {
     "component": "Price",
     "preview": {
       "type": "box",
@@ -84,7 +84,7 @@
       }
     }
   },
-  "remove-button": {
+  "remove-button-edit": {
     "component": "RemoveButton",
     "preview": {
       "type": "box",
@@ -95,7 +95,7 @@
       }
     }
   },
-  "manual-pricing": {
+  "manual-pricing-edit": {
     "component": "ManualPrice"
   }
 }
