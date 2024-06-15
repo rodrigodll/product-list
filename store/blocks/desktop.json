@@ -16,7 +16,7 @@
     }
   },
   "flex-layout.col#image.desktop": {
-    "children": ["product-list-image"],
+    "children": ["product-list-image-edit"],
     "props": {
       "marginRight": "6"
     }
@@ -62,25 +62,25 @@
     }
   },
   "flex-layout.row#quantity-selector.desktop": {
-    "children": ["quantity-selector"],
+    "children": ["quantity-selector-edit"],
     "props": {
       "preventHorizontalStretch": "true"
     }
   },
   "flex-layout.row#unit-price.desktop": {
-    "children": ["unit-price#desktop"],
+    "children": ["unit-price-edit#desktop"],
     "props": {
       "marginTop": "3",
       "preventHorizontalStretch": "true"
     }
   },
-  "unit-price#desktop": {
+  "unit-price-edit#desktop": {
     "props": {
       "textAlign": "center"
     }
   },
   "flex-layout.col#price.desktop": {
-    "children": ["price#desktop"],
+    "children": ["price-edit#desktop"],
     "props": {
       "blockClass": "priceWrapper",
       "marginLeft": "6",
@@ -88,30 +88,30 @@
       "verticalAlign": "middle"
     }
   },
-  "price#desktop": {
+  "price-edit#desktop": {
     "props": {
       "textAlign": "right"
     }
   },
   "flex-layout.col#remove-button.desktop": {
-    "children": ["remove-button"],
+    "children": ["remove-button-edit"],
     "props": {
       "marginLeft": "6",
       "verticalAlign": "middle"
     }
   },
   "flex-layout.row#message.desktop": {
-    "children": ["message#desktop"],
+    "children": ["message-edit#desktop"],
     "props": {
       "marginTop": "4"
     }
   },
-  "message#desktop": {
+  "message-edit#desktop": {
     "props": {
       "layout": "cols"
     }
   },
   "flex-layout.col#manual-pricing": {
-    "children": ["manual-pricing"]
+    "children": ["manual-pricing-edit"]
   }
 }

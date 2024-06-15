@@ -16,7 +16,7 @@
     }
   },
   "flex-layout.col#image.mobile": {
-    "children": ["product-list-image"],
+    "children": ["product-list-image-edit"],
     "props": {
       "marginRight": "5"
     }
@@ -44,43 +44,43 @@
     }
   },
   "flex-layout.row#quantity-selector.mobile": {
-    "children": ["quantity-selector"],
+    "children": ["quantity-selector-edit"],
     "props": {
       "marginTop": "5",
       "preventHorizontalStretch": "true"
     }
   },
   "flex-layout.row#unit-price.mobile": {
-    "children": ["unit-price"],
+    "children": ["unit-price-edit"],
     "props": {
       "marginTop": "3"
     }
   },
   "flex-layout.row#price.mobile": {
-    "children": ["price#mobile"],
+    "children": ["price-edit#mobile"],
     "props": {
       "marginTop": "5",
       "preventHorizontalStretch": "true"
     }
   },
-  "price#mobile": {
+  "price-edit#mobile": {
     "props": {
       "textAlign": "left"
     }
   },
   "flex-layout.col#remove-button.mobile": {
-    "children": ["remove-button"],
+    "children": ["remove-button-edit"],
     "props": {
       "marginLeft": "3"
     }
   },
   "flex-layout.row#message.mobile": {
-    "children": ["message#mobile"],
+    "children": ["message-edit#mobile"],
     "props": {
       "marginTop": "3"
     }
   },
-  "message#mobile": {
+  "message-edit#mobile": {
     "props": {
       "layout": "rows"
     }

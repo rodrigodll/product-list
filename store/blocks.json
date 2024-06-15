@@ -1,8 +1,8 @@
 {
-  "product-list": {
+  "product-list-edit": {
     "blocks": [
-      "product-list-content-desktop",
-      "product-list-content-mobile"
+      "product-list-edit-content-desktop",
+      "product-list-edit-content-mobile"
     ]
   }
 }

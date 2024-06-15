@@ -1,7 +1,7 @@
 {
   "product-list-edit": {
     "component": "ProductListWrapper",
-    "allowed": ["product-list-content-desktop", "product-list-content-mobile"]
+    "allowed": ["product-list-content-desktop-edit", "product-list-content-mobile-edit"]
   },
   "product-list-content-desktop-edit": {
     "component": "ProductList",
