@@ -1,5 +1,5 @@
 {
-  "product-list-content-mobile": {
+  "product-list-content-mobile-edit": {
     "children": ["flex-layout.row#list-row.mobile"]
   },
   "flex-layout.row#list-row.mobile": {
